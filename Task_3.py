@@ -13,7 +13,7 @@ for i in range(1, len(N)):
     else:
         if len(may_be_the_biggest) > len(the_biggest):
             the_biggest = may_be_the_biggest
-            may_be_the_biggest = [N[i]]
+        may_be_the_biggest = [N[i]]
 
 print(f'Исходный массив: {" ".join([str(i) for i in N])}')
 print(f'Самая длинная восходящая последовательность: {" ".join([str(i) for i in the_biggest])}')
